@@ -5,11 +5,15 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 // import StartReact from './components/StartReact'
 // import Register from './components/Register';
-import Facebook from './components/assignment1/Facebook';
+// import Facebook from './components/assignment1/Facebook';
+// import Cards from './components/Cards'
+// import Buddies from './components/assignment2/Buddies'
+import BuddiesTransaction from './components/assignment2/BuddiesTransaction';
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <Facebook/>
+    <BuddiesTransaction/>
   </React.StrictMode>,
   document.getElementById('root')
 );
